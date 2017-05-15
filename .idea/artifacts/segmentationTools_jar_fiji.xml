@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="segmentationTools:jar-fiji">
+    <output-path>/Applications/Fiji.app/plugins</output-path>
+    <root id="archive" name="segmentationTools_.jar">
+      <element id="module-output" name="segmentationTools" />
+    </root>
+  </artifact>
+</component>

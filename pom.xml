@@ -18,21 +18,21 @@
     </parent>
 
 
-        <developers>
-            <developer>
-                <id>tischi</id>
-                <name>Christian Tischer</name>
-                <email>tischitischer@gmail.com</email>
-                <url></url>
-                <organization>EMBL Heidelberg</organization>
-                <organizationUrl>http://www.embl.de</organizationUrl>
-                <roles>
-                    <role>microscopy</role>
-                    <role>image analysis</role>
-                </roles>
-                <timezone>+1</timezone>
-            </developer>
-        </developers>
+    <developers>
+        <developer>
+            <id>tischi</id>
+            <name>Christian Tischer</name>
+            <email>tischitischer@gmail.com</email>
+            <url></url>
+            <organization>EMBL Heidelberg</organization>
+            <organizationUrl>http://www.embl.de</organizationUrl>
+            <roles>
+                <role>microscopy</role>
+                <role>image analysis</role>
+            </roles>
+            <timezone>+1</timezone>
+        </developer>
+    </developers>
 
 	<properties>
 		<main-class>segmentationTools.AnalyzeFISHSpotsPlugIn</main-class>

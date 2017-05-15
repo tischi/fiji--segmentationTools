@@ -78,7 +78,7 @@ public class Utils {
         String[] sA = s.split(delimiter);
         int[] nums = new int[sA.length];
         for (int i = 0; i < nums.length; i++) {
-            nums[i] = Integer.parseInt(sA[i]);
+            nums[i] = Integer.parseInt( sA[i].trim() );
         }
 
         return nums;

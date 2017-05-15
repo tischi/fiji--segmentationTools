@@ -100,7 +100,7 @@ public class AnalyzeFISHSpotsPlugIn implements PlugIn {
         new ij.ImageJ();
         IJ.wait(1000);
 
-        AnalyzeFISHSpotsPlugIn afs = new AnalyzeFISHSpotsPlugIn("/Users/tischi/Desktop/FISH_01_Crop.tif");
+        AnalyzeFISHSpotsPlugIn afs = new AnalyzeFISHSpotsPlugIn("/Users/tischi/Documents/fiji-plugin-segmentationTools/data/DNAFISH_T1_Z50_C4.tif");
         afs.run("");
     }
 

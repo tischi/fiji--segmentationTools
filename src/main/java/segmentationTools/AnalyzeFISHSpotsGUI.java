@@ -117,9 +117,9 @@ public class AnalyzeFISHSpotsGUI implements ActionListener, FocusListener {
         //
         addHeader(panels, iPanel++, c, "SPOT DETECTION");
         addComboBox(panels, iPanel++, c, comboBoxSegmentationMethod, comboBoxSegmentationMethodLabel);
-        addTextField(panels, iPanel++, c, textFieldChannels, textFieldChannelsLabel, "2;3;4");
-        addTextField(panels, iPanel++, c, textFieldSpotRadii, textFieldSpotRadiiLabel, "1.5,1.5,3;1.5,1.5,3;1.5,1.5,3");
-        addTextField(panels, iPanel++, c, textFieldSpotThresholds, textFieldSpotThresholdsLabel, "200;200;200");
+        addTextField(panels, iPanel++, c, textFieldChannels, textFieldChannelsLabel, "2; 3; 4");
+        addTextField(panels, iPanel++, c, textFieldSpotRadii, textFieldSpotRadiiLabel, "1,1,2; 1,1,2; 1,1,2");
+        addTextField(panels, iPanel++, c, textFieldSpotThresholds, textFieldSpotThresholdsLabel, "200; 200; 300");
         addButton(panels, iPanel++, c, buttonSegmentSpots, buttonSegmentSpotsText);
 
         // Spot analysis
@@ -285,7 +285,6 @@ public class AnalyzeFISHSpotsGUI implements ActionListener, FocusListener {
         }
 
     }
-
 
     public SpotCollection getSpotCollectionFromRoiManager()
     {
