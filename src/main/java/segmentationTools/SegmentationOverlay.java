@@ -45,8 +45,8 @@ public class SegmentationOverlay implements ImageListener {
         {
             activeChannels[i] = true;
         }
+        
         ImagePlus.addImageListener(this);
-
     }
 
 
